@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet"  type="text/css" href= "../styles/visitor_style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <form method = "POST" action="function.php">
+    <div class="container">
+        <div class="box">
+            <h3>REGISTRATION</h3>
+        <div class="name">
+            <i class='bx bx-user'></i>
+            <input type="text" placeholder="Name" name="FullName">
+        </div>
+        <div class="gender">
+            <input type="radio"  name="Gender" id="rad1" value="male"required>
+            <label for="rad1">Male</label>
+            <input type="radio"  name="Gender" id="rad2" value="female"required>
+            <label for="rad1">Female</label>
+        </div>
+        <br>
+        <div class="email">
+            <i class='bx bx-envelope' ></i>
+            <input type="text" placeholder="Email" name="Email">
+        </div>
+        <div class="number">
+            <i class='bx bxs-contact'></i>
+            <input type="number" placeholder="Contact Number" name="Contact">
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder ="Password" name="Password" required>
+            <i class='bx bxs-lock-alt'></i>
+            </div>
+        
+        <div class="button">
+            <button id="Submit">Submit</button>
+        </div>
+        
+        <div class="message">
+            <div class="success" id="success">You Have Been Successfully Registered!
+        </div>
+       
+        <div class="danger" id="danger">Fields Can't be Empty!
+        </div>
+
+        </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
