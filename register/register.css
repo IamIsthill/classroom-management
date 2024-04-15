@@ -1,0 +1,290 @@
+body{
+    font-family: roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+}
+/*  LEFT CONTAINER  */
+.half {
+    width: 50%;
+    height: 100%;
+    background-color: #01294D;
+    display: flex;
+    flex-direction: column;
+}
+.svg-container{   /*  Yung illustration */
+    height: 300px;
+    width: 300px;
+    padding-bottom: 10px;
+    margin-left: 150px;
+}
+.welcome{       /*  yung text container  */
+    text-align: center;
+}
+.welcome h1{        /*  yung mismong text  */
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: 100;
+    display: inline;
+}   
+.line{
+    width: 170px;
+    height: 20px;
+    margin-left: 70px;
+  
+}
+/*  CATCH PHRASE */
+.catchphrase{
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 180px; /* Set a fixed height */
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+   
+}
+.catch1{
+    
+    margin-top: 0px;
+}
+.catch1,.catch2,.catch3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+.catch1 h3{
+    display: inline;
+    color: #B8DEFF;
+}
+.catch2 h3{
+    display: inline;
+    color: #9BD1FF;
+}
+.catch3 h3{
+    display: inline;
+    color: #66B8FF;
+}
+/*  CATCH PHRASE  */
+
+/*  LEFT CONTAINER  */
+
+.center{
+    height: 100%;
+    margin-left: -50px;
+    width: 5%;
+    border-radius: 30%;
+    background-color: #01294D;  
+}
+
+/* RIGHT CONTAINER */
+.half2{
+    width:50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getstarted{
+    width: 260px;
+    margin-top: 60px;
+
+}
+.getstarted h1{
+    display: inline;
+    font-size: 50px;
+    color: #79A7CF;
+    font-weight: bold;
+}
+.phrase{
+    width: 350px;   
+    text-align: center;
+}
+.phrase h1{
+    color: #656565;
+    font-size: 15px;
+    display: inline;
+    font-weight:500;
+}
+.PlaceHolders{
+    height: 400px;
+    width: 350px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.emailad {
+    margin-left: 8px;
+    margin-top: 20px;
+    height: 50px;
+    position: relative; /* Position the container relative to its containing block */
+    width: 348px; /* Set the width of the input box */
+     /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+.email-input {
+    background-color: #CAD5F0;
+    color:#777C8C;
+    font-family: roboto;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 258px; /* Make the input box fill the container */
+    padding-left: 80px; /* Reserve space for the logo */
+    /* Adjust the font size */
+    border: none; /* Remove the border to avoid overlapping with the logo */
+    outline: none; /* Remove the outline when focused */
+}
+.logo {
+    margin-left: 10px;
+    position: absolute; /* Position the logo absolutely within the container */
+    top: 50%; /* Align the logo vertically */
+    left: 10px; /* Position the logo to the right side with 10px of space */
+    transform: translateY(-50%); /* Center the logo vertically */
+    color: #777C8C;
+}
+input[type="text"]:focus::placeholder {
+    opacity: 0; /* Hide placeholder text */
+}
+.firstn {
+    margin-left: 8px;
+    margin-top: 20px;
+    height: 50px;
+    position: relative; /* Position the container relative to its containing block */
+    width: 348px; /* Set the width of the input box */
+     /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+.first-input {
+    background-color: #CAD5F0;
+    color:#777C8C;
+    font-family: roboto;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 258px; /* Make the input box fill the container */
+    padding-left: 80px; /* Reserve space for the logo */
+    /* Adjust the font size */
+    border: none; /* Remove the border to avoid overlapping with the logo */
+    outline: none; /* Remove the outline when focused */
+}
+
+.lastn {
+    margin-left: 8px;
+    margin-top: 20px;
+    height: 50px;
+    position: relative; /* Position the container relative to its containing block */
+    width: 348px; /* Set the width of the input box */
+     /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+.last-input {
+    background-color: #CAD5F0;
+    color:#777C8C;
+    font-family: roboto;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 258px; /* Make the input box fill the container */
+    padding-left: 80px; /* Reserve space for the logo */
+    /* Adjust the font size */
+    border: none; /* Remove the border to avoid overlapping with the logo */
+    outline: none; /* Remove the outline when focused */
+}
+
+.passw {
+    margin-left: 8px;
+    margin-top: 20px;
+    height: 50px;
+    position: relative; /* Position the container relative to its containing block */
+    width: 348px; /* Set the width of the input box */
+     /* Add some padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+}
+.password-input {
+    background-color: #CAD5F0;
+    color:#777C8C;
+    font-family: roboto;
+    height: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 258px; /* Make the input box fill the container */
+    padding-left: 80px; /* Reserve space for the logo */
+    /* Adjust the font size */
+    border: none; /* Remove the border to avoid overlapping with the logo */
+    outline: none; /* Remove the outline when focused */
+}
+
+/*CHECK BOX SA ILALIM */
+.checkbox-container {
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center; /* Align items vertically */
+}
+
+/* Style for the checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px; /* Set the width of the custom checkbox */
+    height: 20px; /* Set the height of the custom checkbox */
+    border: 2px solid #ccc; /* Add border for the custom checkbox */
+    border-radius: 4px; /* Add border-radius for the custom checkbox */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    outline: none; /* Remove outline */
+}
+
+/* Style the custom checkbox when checked */
+input[type="checkbox"]:checked {
+    background-color: #5E5D5D; /* Change background color when checked */
+    border-color: #5E5D5D; /* Change border color when checked */
+}
+/* Style for the text beside the checkbox */
+.text {
+    color: #6D6D6D;
+    margin-left: 5px;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 12px; /* Adjust the font size */
+}
+.signin-button {
+    font-family: roboto;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    padding: 10px 40px; /* Add padding to the button */
+    font-size: 16px; /* Set the font size */
+    background-color: #8AC0EF; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border: none; /* Remove the border */
+    border-radius: 20px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.signin-button:hover {
+  
+    background-color: #0768cf; /* Darken the background color on hover */
+}
+
+.alreadycon{
+    margin-top: 15px;
+}
+.alreadycon a{
+    font-family: roboto;
+    color: #6D6D6D;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* RIGHT CONTAINER */
+
