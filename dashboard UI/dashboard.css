@@ -61,11 +61,11 @@ body{
 .main-content h1{
     margin-top: 50px;
     font-family: inter;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
 }
 .top-float{
-    margin-top: 130px;
+    margin-top: 100px;
     position: absolute; /* Set position to absolute */
         top: 0; /* Align to top */
         left: 0; /* Align to left */
@@ -77,8 +77,8 @@ body{
         top: 0; /* Align to top */
         left: 0; /* Align to left */
         z-index: 1;
-        margin-top: 90px;
-        margin-left: 45px;
+        margin-top: 75px;
+        margin-left: 95px;
 }
 .top-container{
   
@@ -93,7 +93,7 @@ body{
     font-size: 22px;
     position: absolute;
     margin-left: 80px;
-    margin-top: 40px;
+    margin-top: 16px;
 }
 .top-container h4{
     font-family: inter;
@@ -101,22 +101,51 @@ body{
     font-size: 14px;
     position: absolute;
     margin-left: 82px;
-    margin-top: 75px;
+    margin-top: 45px;
 }
 .rect{
     position: absolute;
-    margin-top: 18px;
-    margin-left: 570px;
+    margin-top: -10px;
+    margin-left: 540px;
 }
 .top-container h5{
     position: absolute;
-    margin-top: 90px;
-    margin-left: 593px;
+    font-size: 12px;
+    margin-top: 52px;
+    margin-left: 559px;
     font-family: inter;
     font-weight: bold;
 }
 .qricon{
     position: absolute;
+    margin-top: 0px;
+    margin-left: 558px;
+}
+
+/* MANAGE YOUR CLASSROOM PART */
+
+.manage{
+    width:176px;
+    font-family: inter;
+   margin-top:-35px ;
+}
+.manage h1{
+    display: inline;
+    font-size: 15px;
+}
+
+.manage-classroom{
+    margin-left: 100px;
     margin-top: 30px;
-    margin-left: 589px;
+    height: 340px;
+    width: 555px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.manage-classroom img{
+    margin-top: -24px;
 }
