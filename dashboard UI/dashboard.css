@@ -7,6 +7,10 @@ body{
     justify-content: center;
     
 }
+.icons{
+    width: 30px;
+    height: auto;
+}
 .sidebar {
     position: fixed; /* Position the sidebar fixed */
     top: 0; /* Align the sidebar to the top of the screen */
@@ -16,6 +20,7 @@ body{
     background-color: #ffffff; /* Set the background color of the sidebar */
     color: #fff; /* Set the text color */
     border-right: 1px solid #919191b9;
+    align-items: center;
 }
 .logo{
     margin-top: -40px;
@@ -30,16 +35,16 @@ body{
     margin-bottom: 20px;
 }
 .logout{
-    width: 110px;
-    height: 45px;
+    width: 65px;
+    height: 40px;
     border: none;
     background-color: #384D6C;
-    border-radius: 60px;
+    border-radius: 18px;
     cursor: pointer;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 170px;
-    margin-left: 45px;
+    margin-left: 68px;
     transition: background-color 0.3s ease;
 }
 
@@ -47,6 +52,9 @@ body{
     border: 1px solid #384D6C;
     color: #384D6C;
     background-color: #ffffff;
+}
+.logout:hover svg path {
+    fill: #384D6C;
 }
 /*  MAIN CONTENT CENTER */
 .main-content {
@@ -72,14 +80,34 @@ body{
         z-index: 0;
         
 }
-.iconprof{
-    position: absolute; /* Set position to absolute */
-        top: 0; /* Align to top */
-        left: 0; /* Align to left */
-        z-index: 1;
-        margin-top: 75px;
-        margin-left: 95px;
+
+
+.profile-container {
+    width: 60px; /* Set the width of the profile container */
+    height: 60px; /* Set the height of the profile container */
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide overflow content (for circular shape) */
+    border: 2px solid #ccc; /* Add border for styling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: 70px;
 }
+
+.profile-image {
+    width: 100%; /* Set width to fill the container */
+    height: 100%; /* Set height to fill the container */
+    border-radius: 50%; /* Make the image circular */
+}
+
+
+
+
+
+
 .top-container{
   
     height: 132px;
@@ -123,6 +151,104 @@ body{
 }
 
 /* MANAGE YOUR CLASSROOM PART */
+
+.manage-classroom a{
+    text-decoration: none;
+}
+/* BSIT3A */
+.section-container1 {
+    position: relative; /* Set position relative for absolute positioning */
+    width: 120px;
+    height: 110px;
+    background-color: #FFC7F6;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure dots SVG stays at top-right */
+    transition: background-color 0.4s ease;
+}
+.section-container1:hover{
+    background-color:   #df9dd5 ;
+}
+.manage-classroom h3{
+    margin-top: 35px;
+    font-size: 18px;
+    color: black;
+}
+.manage-classroom h4{
+    font-size: 10px;
+    color: #404040;
+    margin-top: -10px;
+}
+
+.dots-svg {
+    width: 20px; /* Set width of SVG */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Set position absolute */
+    top: 10px; /* Adjust vertical position */
+    right: 5px; /* Adjust horizontal position */
+}
+/* BSIT3A */
+
+/* BSIT3B */
+
+.section-container2 {
+    position: relative; /* Set position relative for absolute positioning */
+    width: 120px;
+    height: 110px;
+    background-color: #CDBCFF;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure dots SVG stays at top-right */
+    transition: background-color 0.4s ease;
+}
+.section-container2:hover{
+    background-color:   #ab97e6 ;
+}
+.manage-classroom h3{
+    margin-top: 35px;
+    font-size: 18px;
+    color: black;
+}
+.manage-classroom h4{
+    font-size: 10px;
+    color: #404040;
+    margin-top: -10px;
+}
+
+.dots-svg {
+    width: 20px; /* Set width of SVG */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Set position absolute */
+    top: 10px; /* Adjust vertical position */
+    right: 5px; /* Adjust horizontal position */
+}
+
+
+/* BSIT3B */
+
+.add-section {
+    width: 120px;
+    height: 110px;
+    background-color: #ECECEC;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.4s ease;
+}
+.add-section:hover{
+    background-color:#afafaf ;
+}
+.add-section:hover svg line{
+    stroke:#ebebeb;
+}
+
+
+
 
 .manage{
     width:176px;
